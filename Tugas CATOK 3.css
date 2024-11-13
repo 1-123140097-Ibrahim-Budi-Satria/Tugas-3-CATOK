@@ -1,0 +1,108 @@
+body {
+    margin : 0;
+    background-color: #fff7d1;
+}
+
+.navbar {
+    border-radius: 10px;
+    background-color: #103370;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a {
+    display: block;
+    margin: 0px 10px;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: aqua;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.container {
+    background-color: #fff;
+    margin-left: auto;
+    box-shadow: -5px -8px 24px -1px rgba(0, 0, 0, 0.75);
+    margin-right: auto;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+.judul {
+    text-align: center;
+    font-size: 50px;
+}
+
+.section {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informasi {
+    width: 80%;
+}
+
+.foto img {
+    border: 6px solid #103370;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.informasi h2 {
+    border-bottom: solid #103370;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th{
+    background-color: #103370;
+    color: white;
+    padding: 5px;
+}
+
+tr {
+    background-color: white;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: #f0f0f0;
+}
+
+table,td,th{
+    border: black solid 1px;
+}
+
+.section-kontak {
+    margin-top: 100px ;
+    display: flex;
+    justify-content: center;
+    gap: 1000px;
+
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
